@@ -1,0 +1,21 @@
+fs:
+  mkdir:
+    recursive:
+      __range: ">= 10.9.0"
+  mkdirSync:
+    recursive:
+      __range: ">= 10.9.0"
+  readdir:
+    withFileTypes:
+      __range: "> 10.9.0"
+  readdirSync:
+    withFileTypes:
+      __range: "> 10.9.0"
+  promises:
+    mkdir:
+      recursive:
+        __range: ">= 10.9.0"
+    readdir:
+      withFileTypes:
+        __range: "> 10.9.0"
+

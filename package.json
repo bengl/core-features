@@ -1,0 +1,28 @@
+{
+  "name": "core-features",
+  "version": "1.0.0",
+  "description": "Feature detection for Node.js core",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bengl/core-features.git"
+  },
+  "keywords": [
+    "features",
+    "feature",
+    "detection"
+  ],
+  "author": "Bryan English <bryan@bryanenglish.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bengl/core-features/issues"
+  },
+  "homepage": "https://github.com/bengl/core-features#readme",
+  "dependencies": {
+    "js-yaml": "^3.12.0",
+    "semver": "^5.5.0"
+  }
+}
